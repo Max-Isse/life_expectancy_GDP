@@ -1,5 +1,4 @@
-# life_expectancy_GDP
-## 📊 Life Expectancy and GDP
+## <h1 align="center"> 📊 Life Expectancy and GDP</h1>
 
 A Data Science Analysis Using World Health Organization Data
 
@@ -112,7 +111,7 @@ The objective is to understand how economic conditions relate to population heal
 - pip install -r requirements.txt
 - jupyter notebook
 
-📜 Data Attribution
+## 📜 Data Attribution
 
 Life expectancy data © World Health Organization (WHO).
 GDP data © World Bank.
