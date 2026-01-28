@@ -1,120 +1,120 @@
 # life_expectancy_GDP
-📊 Life Expectancy and GDP
+## 📊 Life Expectancy and GDP
 
-A Data Science Analysis Using World Health Organization Data
+    A Data Science Analysis Using World Health Organization Data
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project examines the relationship between life expectancy at birth and GDP per capita using official data from the World Health Organization (WHO) and complementary economic indicators.
+    This project examines the relationship between life expectancy at birth and GDP per capita using official data from the World Health Organization (WHO) and complementary economic indicators.
+    
+    The objective is to understand how economic conditions relate to population health outcomes, identify nonlinearities and diminishing returns, and highlight cross-country disparities using a rigorous, reproducible data science workflow.
 
-The objective is to understand how economic conditions relate to population health outcomes, identify nonlinearities and diminishing returns, and highlight cross-country disparities using a rigorous, reproducible data science workflow.
+## 🎯 Objectives
 
-🎯 Objectives
+    Analyze the relationship between GDP per capita and life expectancy
+    
+    Assess nonlinear and diminishing-return effects
+    
+    Compare outcomes across regions and income groups
+    
+    Produce policy-relevant visualizations and insights
+    
+    Maintain reproducibility using authoritative WHO data
 
-Analyze the relationship between GDP per capita and life expectancy
+## 🗂️ Data Sources
 
-Assess nonlinear and diminishing-return effects
+    Primary Source (Health Data):
+    
+    World Health Organization – Global Health Observatory (GHO)
+    
+    Indicator: Life expectancy at birth (years)
+    
+    Economic Data Source:
+    
+    World Bank (GDP per capita, constant USD)
+    (used only for economic comparison; health outcomes are WHO-sourced)
+    
+    Variables Used
+    
+    country
+    
+    year
+    
+    Life expectancy at birth (years)
+    
+    GDP
 
-Compare outcomes across regions and income groups
+## 🛠️ Tools & Technologies
 
-Produce policy-relevant visualizations and insights
+    Python 3.14+
+    
+    Pandas – data processing
+    
+    NumPy – numerical analysis
+    
+    Matplotlib / Seaborn – visualization
+    
+    SciPy / Statsmodels – correlation & regression
+    
+    Jupyter Notebook – analysis environment
 
-Maintain reproducibility using authoritative WHO data
+## 📈 Methodology
 
-🗂️ Data Sources
+    Data Ingestion
 
-Primary Source (Health Data):
+    Load WHO life expectancy data
 
-World Health Organization – Global Health Observatory (GHO)
+    Merge with GDP per capita indicators
 
-Indicator: Life expectancy at birth (years)
+    Data Cleaning
 
-Economic Data Source:
+    Handle missing values
 
-World Bank (GDP per capita, constant USD)
-(used only for economic comparison; health outcomes are WHO-sourced)
+    Harmonize country names and years
 
-Variables Used
+    Remove implausible observations
 
-country
+    Exploratory Data Analysis
 
-year
+    Descriptive statistics
 
-Life expectancy at birth (years)
+    Correlation analysis
 
-GDP
+    Log-transformed GDP modeling
 
-🛠️ Tools & Technologies
+    Visualization
 
-Python 3.14+
+    GDP vs life expectancy (linear & log scale)
 
-Pandas – data processing
+    Temporal trends
 
-NumPy – numerical analysis
+    Regional comparisons
 
-Matplotlib / Seaborn – visualization
+    Interpretation
 
-SciPy / Statsmodels – correlation & regression
+    Diminishing marginal returns to GDP
+    
+    Outlier analysis
+    
+    Policy implications
 
-Jupyter Notebook – analysis environment
+## 📁 Project Structure
+    ├── data/
+    │   ├── who_life_expectancy.csv
+    │   └── gdp_per_capita.csv
+    ├── notebooks/
+    │   └── who_gdp_life_expectancy.ipynb
+    ├── figures/
+    ├── requirements.txt
+    └── README.md
 
-📈 Methodology
-
-Data Ingestion
-
-Load WHO life expectancy data
-
-Merge with GDP per capita indicators
-
-Data Cleaning
-
-Handle missing values
-
-Harmonize country names and years
-
-Remove implausible observations
-
-Exploratory Data Analysis
-
-Descriptive statistics
-
-Correlation analysis
-
-Log-transformed GDP modeling
-
-Visualization
-
-GDP vs life expectancy (linear & log scale)
-
-Temporal trends
-
-Regional comparisons
-
-Interpretation
-
-Diminishing marginal returns to GDP
-
-Outlier analysis
-
-Policy implications
-
-📁 Project Structure
-├── data/
-│   ├── who_life_expectancy.csv
-│   └── gdp_per_capita.csv
-├── notebooks/
-│   └── who_gdp_life_expectancy.ipynb
-├── figures/
-├── requirements.txt
-└── README.md
-
-▶️ How to Run
-pip install -r requirements.txt
-jupyter notebook
+## ▶️ How to Run
+    pip install -r requirements.txt
+    jupyter notebook
 
 📜 Data Attribution
 
-Life expectancy data © World Health Organization (WHO).
-GDP data © World Bank.
+    Life expectancy data © World Health Organization (WHO).
+    GDP data © World Bank.
 
-Used under respective open data licenses.
+    Used under respective open data licenses.
