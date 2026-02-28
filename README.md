@@ -98,6 +98,7 @@ The objective is to understand how economic conditions relate to population heal
 * Policy implications
 
 ## 📁 Project Structure
+```bash
 ├── data/
 │   ├── who_life_expectancy.csv
 │   └── gdp_per_capita.csv
@@ -106,6 +107,7 @@ The objective is to understand how economic conditions relate to population heal
 ├── figures/
 ├── requirements.txt
 └── README.md
+```
 
 ## ▶️ How to Run
 - pip install -r requirements.txt
